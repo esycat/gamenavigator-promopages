@@ -1,0 +1,120 @@
+html, body {
+	background: #46453b;
+	color: #2c2827;
+	font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+	font-size: .9em;
+	line-height: 1.4;
+}
+
+body {
+	margin: 10px;
+}
+
+#go-back a {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 16px;
+	height: 16px;
+	padding: 2px;
+	background: white url('http://gamenavigator.ru/favicon') center no-repeat;
+}
+
+a:link    { color: #7c1d04; }
+a:hover   { color: #7c1d04; }
+a:visited { color: #931f00; }
+a:active  { color: #7c1d04; }
+
+a img.icon {
+	border: none;
+}
+
+#go-back a img.icon {
+	display: block;
+}
+
+#container {
+	position: relative;
+	width: 800px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#header, #content, #illustration {
+	border: 10px solid #2c2827;
+}
+
+#header, #illustration {
+	background-color: #2c2827;
+}
+
+#header img, #illustration img {
+	display: block;
+}
+
+#header {
+	width: 780px;
+	height: 372px;
+	margin: auto;
+}
+
+#illustration {
+	float: right;
+	width: 300px;
+	height: 730px;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+
+#content {
+	float: left;
+	width: 450px;
+	margin-top: -10px;
+	padding: 10px;
+	background-color: #bdbab1;
+}
+
+h1, h2, h3 {
+	font-family: Verdana, sans-serif;
+}
+
+#content h1 {
+	margin-top: 0;
+	/* text-shadow: 1px 1px 7px black; */
+}
+
+#content h2 {
+	margin: 1em 0 0 2em;
+	font-size: 1.2em;
+	font-variant: small-caps;
+}
+
+#content p {
+	margin-top: .52em;
+	margin-bottom: .5em;
+	text-indent: 2em;
+}
+
+#content p.epigraph {
+	font-size: .8em;
+	text-align: right;
+}
+
+#content p.centered {
+	text-align: center;
+	text-indent: 0;
+}
+
+#content p.footnote {
+	font-size: .8em;
+}
+
+#content div.gallery {
+	margin: .5em auto;
+}
+
+#content div.gallery img {
+	border: none;
+	vertical-align: middle;
+}
+

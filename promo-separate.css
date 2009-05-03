@@ -1,0 +1,17 @@
+@import url('promo.css');
+
+#container {
+	width: 820px;
+}
+
+#header, #content, #illustration {
+	-moz-border-radius: 20px;
+}
+
+#content, #illustration {
+	margin-top: 10px;
+}
+
+#content {
+	margin-top: 30px;
+}
