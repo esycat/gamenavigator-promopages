@@ -10,16 +10,6 @@ body {
 	margin: 10px;
 }
 
-#go-back a {
-	position: absolute;
-	top: 5px;
-	left: 5px;
-	width: 16px;
-	height: 16px;
-	padding: 2px;
-	background: white url('http://gamenavigator.ru/favicon') center no-repeat;
-}
-
 a:link    { color: #7c1d04; }
 a:hover   { color: #7c1d04; }
 a:visited { color: #931f00; }
@@ -27,6 +17,21 @@ a:active  { color: #7c1d04; }
 
 a img.icon {
 	border: none;
+}
+
+
+#go-back {
+	position: fixed;
+	top: 5px;
+	left: 5px;
+}
+
+#go-back a {
+	display: block;
+	width: 16px;
+	height: 16px;
+	padding: 2px;
+	background: white url('http://gamenavigator.ru/favicon') center no-repeat;
 }
 
 #go-back a img.icon {
